@@ -171,7 +171,7 @@ header {
 }
 
 .primary-button:hover {
-    background-color: #FB1800;
+    background-color: #47B6E6;
 }
 
 
@@ -265,7 +265,7 @@ header {
 }
 
 .tertiary-area {
-    width: 65%;
+    width: 80%;
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -336,7 +336,7 @@ header {
 .tertiary-text {
     height: auto;
     padding: 20px;
-    text-align : center;
+    text-align : left;
 }
 
 .tertiary-main-text {
@@ -355,7 +355,7 @@ header {
 }
 
 .quaternary-area {
-    width: 65%;
+    width: 70%;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: auto;
@@ -375,7 +375,8 @@ header {
 
 .quaternary-main-text {
     color: #101010;
-    text-align : center;
+    text-align : left;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
@@ -533,6 +534,10 @@ hr {
 .footer-text-link {
     width: 80%;
     margin-bottom: 6px;
+}
+
+.footer-link:hover{
+    color: #f6bf00;
 }
 
 
