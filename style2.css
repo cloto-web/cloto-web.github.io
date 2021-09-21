@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    display: flex;
+    /* display: flex; */
     font-size: 24px;
     min-height: 100vh;
     font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", serif;
@@ -38,6 +38,10 @@ h1 {
     color: white;
 }
 
+.h2 {
+    text-align: center;
+    color: white;
+}
 
 a, p, div, aside {
     color: white;
@@ -119,366 +123,165 @@ header {
 
 /* primary -------------------------------------------- */
 .primary {
-    width: 65%;
+    width: 100%;
     height: auto;
-    margin: 0 auto;
-    background-color: #f6bf00;
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 155px;
-    box-shadow: 8px 8px 16px -2px #212121;
-    /* flex: 1; */
+    padding-top: 55px;
+    background-color: #101010;
+}
+.primary-area {
+    width: 80%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .primary-title {
-    margin-top: 100px;
-    text-shadow: 1px 2px 3px rgb(182, 182, 182);
-}
 
+}
+.primary-sub {
+    font-size: 24px;
+    text-align: center;
+    /* width: 80%; */
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .primary-text {
     text-align: center;
-    margin-top: 72px;
-    text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182);
+    font-size: 16px;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.primary-link {
-    text-align: center;
-}
-
-.to-prospect {
-    margin-top: 30px;
-    color: white;
-    text-shadow: 0.5px 1px 1.5px rgba(182, 182, 182);
-}
-
-.to-prospect:hover {
-    color: #0411FF;
-    }
-
 .primary-button-area {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-
 .primary-button {
     height: auto;
     width: auto;
-    margin-top: 32px;
+    margin-top: 8px;
     background-color: #0411FF;
     border-radius:15px;
     padding: 8px;
     box-shadow: 2px 2px 4px -2px #212121;
 }
-
 .primary-button:hover {
-    background-color: #47B6E6;
+    background-color: #f6bf00;
 }
-
-
 
 /*  secondary-------------------------------------- */
 .secondary {
     width: 100%;
     height: auto;
-    background-color: #f6bf00;
 }
-
-.secondary-area{
-    width: 65%;
-    height: auto;
-    padding-top: 150px;
-    padding-bottom: 150px;
+.secondary-area {
+    width: 80%;
+    padding-top: 48px;
+    padding-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-    /* min-width: 600px; */
+}
+.secondary-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #101010;
+}
+.secondary-sub {
+    margin-top: 32px;
+    text-align: center;
+    color: #101010;
+}
+.secondary-sub-sub {
+    margin-top: 24px;
+    color: #212121;
+    text-align: center;
+    font-size: 20px;
+}
+.secondary-contents {
+    margin-top: 56px;
+    padding: 24px;
+}
+.secondary-table {
     display: flex;
 }
-
-.secondary-img {
-    width: 50%;
-    height: 100%;
-    z-index: 1;
-    margin-top: auto;
-    margin-bottom: auto;
+.secondary-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100%/3);
 }
-
-.secondary-text {
-    width: 50%;
-    z-index: 2;
+.secondary-content-title {
+    font-size: 24px;
     text-align: center;
 }
-
-/* .secondary-text{
-    padding-right: 0;
-} */
-
-.secondary-title {
-    margin-bottom: 20px;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 480px;
+.secondary-content-text {
+    margin: 16px;
+    padding: 8px;
+    color: #101010;
+    font-size: 16px;
 }
-
-.secondary-main {
-    margin-bottom: 20px;
-    font-size: 100%;
-    text-align: center;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 470px;
-}
-
-.harf {
-    float: left;
-    width: 50%;
-    height: 400px;
-    text-align : center;
-}
-
-.pc {
-    width: 80%;
-    height: auto;
-}
-
-.to-pricing {
-    color: white;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 470px;
-}
-
-.to-pricing:hover {
-    color: #0411FF;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 470px; 
-}
-
-.secondary-link {
-    text-align: center;
-}
-
 /*  tertiary-------------------------------------- */
 .tertiary {
     width: 100%;
     height: auto;
-    padding-bottom: 70px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #101010;
+    background-color: #ffffff;
 }
-
 .tertiary-area {
     width: 80%;
-    padding-top: 100px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .tertiary-title {
-    border:1px solid #999999;
-    text-align : center;
-    padding: 15px;
-    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #101010;
 }
-
 .tertiary-sub {
-    border:1px solid #999999;
-    text-align : center;
-    padding: 15px;
-    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+    margin-top: 32px;
+    text-align: center;
+    color: #101010;
 }
-
+.tertiary-sub-sub {
+    margin-top: 24px;
+    color: #212121;
+    text-align: center;
+    font-size: 20px;
+}
+.tertiary-contents {
+    margin-top: 56px;
+    padding: 24px;
+}
 .tertiary-table {
     display: flex;
 }
-
-.tertiary-table li {
-    width : calc(100% / 3) ;
-    border:1px solid #999999;
+.tertiary-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100%/3);
 }
-
-.tertiary-image {
-    text-align : center;
-    border:1px solid #999999;
+.tertiary-content-title {
+    font-size: 24px;
+    text-align: center;
 }
-
-.tertiary-img {
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.tertiary-button {
-    position:relative;
-    width:100%;
-    height:96px;
-    background-color:#101010;
-    border:1px solid #999999;
-}
-
-.tertiary-button .tertiary-link{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align : center;
-}
-
-.tertiary-button .tertiary-link:hover {
-    color: #f6bf00;
-}
-
-.tertiary-link {
-    margin-top: 24px;
-    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
-}
-
-
-.tertiary-text {
-    height: auto;
-    padding: 20px;
-    text-align : left;
-}
-
-.tertiary-main-text {
+.tertiary-content-text {
+    margin: 16px;
+    padding: 8px;
+    color: #101010;
     font-size: 16px;
-    max-height: 320px;
-    margin-bottom: 10px;
-    text-shadow: 0.5px 1px 1.5px rgba(255, 255, 255, 0.5);
 }
-
 /*  quaternary-------------------------------------- */
 
-.quaternary {
-    height: auto;
-    background-color: #f4f4f4;
-    border:1px solid #101010;
-}
-
-.quaternary-area {
-    width: 70%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align : center;
-}
-
-.quaternary-title {
-    color: #101010;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-}
-
-.quaternary-text {
-    margin-top: 30px;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-}
-
-.quaternary-main-text {
-    color: #101010;
-    text-align : left;
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-
-.quaternary-link {
-    color: #101010;
-}
-
-.quaternary-link :hover{
-    color: #f6bf00;
-}
-
-.quinary-img-right, .quinary-img-left {
-    box-shadow: 8px 8px 16px -8px #212121;
-}
-
 /*  quinary-------------------------------------- */
-
-.quinary {
-    height: auto;
-    background-color: #f4f4f4;
-    border:1px solid #101010;
-}
-
-.quinary-area {
-    width: 65%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align : center;
-}
-
-.quinary-title {
-    color: #101010;
-}
-
-.problem {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align : center;
-}
-
-.how, .difficult, .lonely {
-    text-align : center;
-}
-
-.quinary-sub {
-    color: #101010;
-}
-
-.quinary-tile-area {
-    text-align : center;
-}
-
-.quinary-tile {
-    display: flex;
-}
-
-.quinary-text-area {
-    width: 50%;
-    padding: 24px;
-}
-
-.quinary-text {
-    color: #101010;
-    font-size: 16px;
-    text-align : left;
-    padding-top: 12px;
-    padding-bottom: 6px;
-}
-
-.quinary-img-right {
-    width: 100%;
-}
-
-.quinary-img-left {
-    width: 100%;
-}
-
-
-.quinary-summary-text {
-    color: #101010;
-    margin-bottom: 20px;
-}
-
-.quinary-button {
-    height: auto;
-    width: auto;
-    margin-top: 16px;
-    background-color: #0411FF;
-    border-radius:15px;
-    padding: 8px;
-    box-shadow: 2px 2px 4px -2px #212121;
-}
-
-.quinary-button:hover {
-    background-color: #f6bf00;
-}
 
 /*  footer-------------------------------------- */
 
 .footer {
+    width: 100%;
     height: 400px;
     background-color: #101010;
     padding-top: 48px;
@@ -558,100 +361,19 @@ hr {
     }
     /* header ----------------------------------------------*/
     /* primary ---------------------------------------------*/
-    .primary {
-        width: 80%;
-    }
-    .primary-title {
-        font-size: 64px;
-    }
-    .primary-text {
-        font-size: 16px;
-    }
+    
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    .secondary-area {
-        width: 90%;
-        display: block;
-        text-align: center;
-    }
-    .secondary-img {
-        width: 100%;
-    }
-    .pc {
-        max-width: 400px;
-    }
-    .secondary-text {
-        width: 100%;
-        margin-top: 48px;
-    }
-    .secondary-title {
-        font-size: 24px;
-    }
-    .secondary-main {
-        font-size: 16px;
-    }
-    .to-pricing {
-        font-size: 18px;
-    }
+    
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
-    .tertiary-area {
-        width: 80%;
-    }
-    .tertiary-title {
-        font-size: 24px;
-    }
-    .tertiary-sub {
-        font-size: 20px;
-    }
-    .tertiary-table {
-        display: block;
-    }
-    .tertiary-table li {
-        width: 100%;
-        text-align: center;
-    }
+    
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    .quaternary-area {
-        width: 85%;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align : center;
-    }
-    .quaternary-title {
-        font-size: 32px;
-    }
-    .quaternary-main-text {
-        font-size: 16px;
-    }
+    
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
-    .quinary-area {
-        width: 85%;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align : center;
-    }
-    .quinary-sub {
-        background-color: rgb(33, 33, 33, 0.5);
-        color: white;
-        text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.8);
-        font-size: 24px;
-    }
-    .quinary-tile {
-        text-align: center;
-        display: block;
-    }
-    .quinary-text-area {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
     /* quinary ---------------------------------------------*/
     /* footer ----------------------------------------------*/
     .footer-area {
@@ -806,111 +528,19 @@ hr {
     }
     /* header ----------------------------------------------*/
     /* primary ---------------------------------------------*/
-    .primary {
-    width: 90%;
-    height: auto;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    color: white;
-    }
-    .primary-area {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .primary-title {
-        margin-top: 48px;
-        font-size: 32px;
-    }
-    .primary-text {
-        margin-top: 40px;
-        font-size: 14px;
-        line-height: 20px;
-        /* text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182, 0.5); */
-    }
-    .to-prospect {
-        margin-top: 24px;
-        font-size: 24px;
-    }
-    .primary-button {
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
-    }
+    
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    .secondary-area {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-    .pc {
-        width: 100%;
-    }
-    .secondary-title {
-        font-size: 20px;
-        min-width: auto;
-    }
-    .secondary-main {
-        min-width: auto;
-    }
-    .to-pricing {
-        min-width: auto;
-    }
+    
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
-    .tertiary-area {
-        width: 96%;
-    }
-    .tertiary-link {
-        font-size: 20px;
-    }
-    .tertiary-text {
-        padding: 8px;
-    }
-    .tertiary-main-text {
-        font-size: 14px;
-    }
+    
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    .quaternary-area {
-        width: 90%;
-        margin-top: 64px;
-        margin-bottom: 64px;
-    }
-    .quaternary-title {
-        font-size: 24px;
-    }
-    .quaternary-main-text {
-        font-size: 14px;
-    }
-    .quaternary-link {
-        font-size: 20px;
-    }
+    
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
-    .quinary-area {
-        width: 90%;
-    }
-    .quinary-title {
-        font-size: 24px;
-    }
-    .quinary-sub {
-        font-size: 20px;
-    }
-    .quinary-text-area {
-        width: 100%;
-        padding: 16px;
-    }
-    .quinary-summary-text {
-        font-size: 20px;
-    }
-    .quinary-button {
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
-    }
+    
     /* quinary ---------------------------------------------*/
     /* footer ----------------------------------------------*/
     .footer-area {
