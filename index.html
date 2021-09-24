@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>CLOTO バーチャル自習室</title> 
+        <title>CLOTO バーチャル自習室</title>
         <meta name="description" content="Web制作、Webデザイン初学者向けにリニューアル！プログラミング学習者向け多機能バーチャル自習室">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -16,12 +16,12 @@
                 <a href="index.html"><img class="logo" src="white-logo.png" alt="ロゴ"></a>
                 <ul class="header-menu">
                     <li class="header-list"><a class="header-text" href="index.html">HOME<br><p class="header-sub">ホーム</p></a></li>
-                    <li class="header-list"><a class="header-text" href="method.html">METHOD<br><p class="header-sub">学習方法</p></a></li>
+                    <!-- <li class="header-list"><a class="header-text" href="method.html">METHOD<br><p class="header-sub">学習方法</p></a></li> -->
                     <li class="header-list"><a class="header-text" href="product.html">PRODUCT<br><p class="header-sub">製品紹介</p></a></li>
-                    <li class="header-list"><a class="header-text" href="prospect.html">PROSPECT<br><p class="header-sub">CLOTOの描く未来</p></a></li>
+                    <!-- <li class="header-list"><a class="header-text" href="prospect.html">PROSPECT<br><p class="header-sub">CLOTOの描く未来</p></a></li>
                     <li class="header-list"><a class="header-text" href="pricing.html">PRICING<br><p class="header-sub">料金/プラン</p></a></li>
                     <li class="header-list"><a class="header-text" href="team.html">TEAM<br><p class="header-sub">開発・運営チーム</p></a></li>
-                    <li class="header-list"><a class="header-text" href="contact.html">CONTACT<br><p class="header-sub">お問い合わせ/SNS</p></a></li>
+                    <li class="header-list"><a class="header-text" href="contact.html">CONTACT<br><p class="header-sub">お問い合わせ/SNS</p></a></li> -->
                 </ul> 
                 <!-- <img class="hamburger" src="hamburger.png" art="ハンバーガーメニュー"> -->
                 <!-- ハンバーガーメニュー部分 -->
@@ -33,24 +33,24 @@
                     <!-- メニュー -->
                     <nav class="drawer-content">
                         <h2 class="drawer-title">
-                            集え、独学者
+                            集え、Web制作独学者
                         </h2>
                         <ul class="drawer-menu">
                             <li class="drawer-harf">
                                 <ul class="drawer-section">
                                     <li class="drawer-list"><a class="drawer-text" href="index.html">HOME<br><p class="drawer-sub">ホーム</p></a></li>
-                                    <li class="drawer-list"><a class="drawer-text" href="method.html">METHOD<br><p class="drawer-sub">学習方法</p></a></li>
+                                    <!-- <li class="drawer-list"><a class="drawer-text" href="method.html">METHOD<br><p class="drawer-sub">学習方法</p></a></li> -->
                                     <li class="drawer-list"><a class="drawer-text" href="product.html">PRODUCT<br><p class="drawer-sub">製品紹介</p></a></li>
                                 </ul>
                             </li>
-                            <li class="drawer-harf">
+                            <!-- <li class="drawer-harf">
                                 <ul class="drawer-section">
                                     <li class="drawer-list"><a class="drawer-text" href="prospect.html">PROSPECT<br><p class="drawer-sub">CLOTOの描く未来</p></a></li>
                                     <li class="drawer-list"><a class="drawer-text" href="pricing.html">PRICING<br><p class="drawer-sub">料金/プラン</p></a></li>
                                     <li class="drawer-list"><a class="drawer-text" href="team.html">TEAM<br><p class="drawer-sub">開発・運営チーム</p></a></li>
                                     <li class="drawer-list"><a class="drawer-text" href="contact.html">CONTACT<br><p class="drawer-sub">お問い合わせ/SNS</p></a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -60,14 +60,26 @@
                 <!-- primary -->
                 <div class="primary">
                     <div class="primary-area">
-                        <h1 class="primary-title">集え、独学者</h1>
+                        <h1 class="primary-title">集え、Web制作独学者</h1>
+                        <h2 class="primary-sub">まったく新しいバーチャル自習室 <font color="#FF2700">10/5オープン</font></h2>
                         <p class="primary-text">プログラミング学習の離脱率は８割とも。
                             <br>原因は技術でも、教材でもなく「学び抜く力」だ。
                             <br>1人でも多くの学習者が仲間と高めあい
                             <br>プログラミング独学を楽しめる世の中へ
                         </p>
-                        <div class="primary-link">
-                            <button class="to-prospect" onclick="location.href='./prospect.html'"><u>もっと詳しく></u></button>
+                        <div class="primary-link-area">
+                            <a class="primary-link" href="./product.html">
+                                <u>
+                                    バーチャル自習室とは >
+                                </u>
+                            </a>
+                        </div>
+                        <div class="primary-link-area">
+                            <a class="primary-link" href="#jump-quinary">
+                                <u>
+                                    第1期テストユーザーに無料でエントリー >
+                                </u>
+                            </a>
                         </div>
                         <div class="primary-button-area" > 
                             <button class="primary-button" onclick="location.href='https://forms.gle/nXaW8m8yecrxLxvM6'">Googleフォームでリリース前に無料の事前予約！</button>
@@ -78,25 +90,30 @@
                 <!-- secondary -->
                 <div class="secondary">
                     <div class="secondary-area">
-                        <div class="secondary-img">
-                            <img class="pc" src="pc.png" alt="pc">
-                        </div>
-                        <div class="secondary-text">
-                            <h2 class="secondary-title">プログラミング独学力がつく
-                                <br>唯一無二のバーチャル自習室
-                                <br>現在開発中！
-                            </h2>
-                            <p class="secondary-main">10/5までに予約お申し込みなら
-                                1ヶ月無料！
-                                <br>その後も嬉しい<font color="#FF2700">特典</font>あり！
+                        <h2 class="secondary-title">
+                            Web制作の独学体験
+                            <br>そのすべてを新しく
+                        </h2>
+                        <div class="secondary-text-area">
+                            <p class="secondary-text">
+                                Web制作を志す全ての人々が快適で有意義な独学体験を得ることが
+                                できるように。必要な機能を身につけたバーチャル自習室の登場です。
+                                他にはない、常時解放型のバーチャル自習室と独自の学習支援方法で、これまでにないプログラミング学習体験を演出します。
                             </p>
-                            <div class="secondary-limk">
-                                <button class="to-pricing" onclick="location.href='./pricing.html'">
-                                    <u>初期テストユーザー限定キャンペーン実施中！
-                                        <br><font color="#FF2700">キャンペーンをチェック！>>></font>
-                                    </u>
-                                </button>
-                            </div>
+                        </div>
+                        <div class="secondary-link-area">
+                            <a href="#jump-quinary" class="secondary-link">
+                                <u>
+                                    第1期テストユーザーに無料でエントリー>
+                                </u>
+                            </a>
+                        </div>
+                        <div class="secondary-link-area">
+                            <button class="secondary-link" onclick="location.href='./product.html'">
+                                <u>
+                                    製品について>
+                                </u>
+                            </button>
                         </div>
                     </div>                
                 </div>
@@ -109,10 +126,10 @@
                         <ul class="tertiary-table">
                             <li>
                                 <div class="tertiary-image">
-                                    <img class="tertiary-img" src="room.png" alt="support">
+                                    <img class="tertiary-img" src="mystudy.png" alt="support">
                                 </div>
                                 <div class="tertiary-button">
-                                    <a class ="tertiary-link" href="method.html">1,全く新しい独学体験＞</a>
+                                    <a class ="tertiary-link" href="product.html#study">1,全く新しい独学体験＞</a>
                                 </div>
                                 <div class="tertiary-text">
                                     <span>
@@ -130,10 +147,10 @@
                             </li>
                             <li>
                                 <div class="tertiary-image">
-                                    <img class="tertiary-img" src="room.png" alt="battle">
+                                    <img class="tertiary-img" src="floor.png" alt="自習室">
                                 </div>
                                 <div class="tertiary-button">
-                                    <a class="tertiary-link" href="product.html">2,切磋琢磨できる学習環境＞</a>
+                                    <a class="tertiary-link" href="product.html#primary">2,切磋琢磨できる学習環境＞</a>
                                 </div>
                                 <div class="tertiary-text">
                                     <span>
@@ -151,10 +168,10 @@
                             </li>
                             <li>
                                 <div class="tertiary-image">
-                                    <img class="tertiary-img" src="room.png" alt="mentoring">
+                                    <img class="tertiary-img" src="cowork.png" alt="コワーキングスペース">
                                 </div>
                                 <div class="tertiary-button">
-                                    <a class="tertiary-link" href="prospect.html">3,リアルタイムでの教えあい＞</a>
+                                    <a class="tertiary-link" href="product.html#co">3,リアルタイムでの教えあい＞</a>
                                 </div>
                                 <div class="tertiary-text">
                                     <span>
@@ -176,167 +193,157 @@
                 </div>
                 <!-- tertiary -->
                 <!-- quaternary -->
-                <!-- <div class="quaternary">
+                <div class="quaternary">
                     <div class="quaternary-area">
-                        <h2 class="quaternary-title">プログラミング初学者の方、必見です。</h2>
-                        <div class="quaternary-text">
-                            <p class="quaternary-main-text">
-                                これまでの人生で未経験から3ヶ月、隙間時間だけで完全に身についたことっていくつありますか？
+                        <h2 class="quaternary-title">
+                            Web制作の学習で、このような体験はありませんでしたか？
+                        </h2>
+                        <div class="quaternary-contents">   
+                            <div class="quaternary-sub-area">
+                                <h3 class="quaternary-sub">
+                                    １何をすればいいのか。どうすればいいのか。わからない。
+                                </h3>
+                                <div class="quaternary-tile-area">
+                                    <ul class="quaternary-tile">
+                                        <li class="quaternary-content-area">
+                                            <p class="quaternary-text">
+                                                プログラミング学習の最大の特徴に受験科目や資格勉強などと異なり、
+                                                <br>　・長期的な学習法が未整理
+                                                <br>　・ゴールが不明確
+                                                <br>　・情報収集、検索力が命
+                                                <br>ということことがあります。
+                                            </p>
+                                            <p class="quaternary-text">
+                                                つまり、<font color="#FF2700">初めから終わりまで自分自身で学習を設計、管理する必要がある</font>のです。
+                                            </p>
+                                            <p class="quaternary-text">
+                                                CLOTOではWeb制作で経るべきマイルストーンを示し
+                                                <br>サービスの中で自分の目的や他者との関わりの中で最適な学習が自然と身につくサービスです。
+                                            </p>
+                                        </li>
+                                        <li class="quaternary-content-area">
+                                            <img class="quaternary-img" src="how.png" alt="how">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="quaternary-contents">
+                                <h3 class="quaternary-sub">
+                                    ２、思っていたより難しく、身につくまで学習を継続できない。
+                                </h3>
+                                <div class="quaternary-tile-area">
+                                    <ul class="quaternary-tile">
+                                        <li class="quaternary-content-area">
+                                            <img class="quaternary-img" src="difficult.png" alt="difficult">
+                                        </li>
+                                        <li class="quaternary-content-area">
+                                            <p class="quaternary-text">
+                                                人によっても異なりますが、プログラミングがある程度理解できるようになるまでは苦悩の連続。
+                                                あと少し頑張れば理解できるという段階で多くの人が<font color="#FF2700">モチベーションを維持できなくなり挫折してしまう</font>のです。
+                                            </p>
+                                            <p class="quaternary-text">
+                                                CLOTOでは、さまざまな機能を用いて、ユーザー間での情報、モチベーションの共有を促進します。
+                                            </p>
+                                            <p class="quaternary-text">
+                                                学習内容、段階ごとに集合知をまとめ共有することで、自分の学習記録が、時間軸を超えて後進の育成に寄与することも可能なのです。
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="quaternary-contents">
+                                <h3 class="quaternary-sub">
+                                    ３、周りに学習者がいないので孤独。
+                                </h3>
+                                <div class="quaternary-tile-area">
+                                    <ul class="quaternary-tile">
+                                        <li class="quaternary-content-area">
+                                            <p class="quaternary-text">
+                                                <font color="#FF2700">初学者の周りにはなかなかプログラミングに精通した知人がいない</font>ことが多く、またPCに向かって作業するという性質上、<font color="#FF2700">孤独感を感じる</font>場面が多いようです。
+                                            </p>
+                                            <p class="quaternary-text">
+                                                CLOTOでは気軽に質問をできる機能や、各種イベント、勉強会を通じて、ユーザー同士に程よい距離感の「仲間」と触れ合う機会を提供します。
+                                                時に競争し、時に支え合える仲間がいる。
+                                            </p>
+                                            <p class="quaternary-text">
+                                                プログラミング独学はもはや、仲間と出会う機会の一つと言えるかもしれません。
+                                            </p>
+                                        </li>
+                                        <li class="quaternary-content-area">
+                                            <img class="quaternary-img" src="lonely.png" alt="lonely">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quaternary-summary">
+                            <p class="quaternary-summary-text">
+                                もし、一つでも今の状況に当てはまれば、
+                                まずはお気軽に無料の第1期テストユーザーの事前予約を！
                             </p>
-                            <p class="quaternary-main-text">
-                                あまり多くはないはずです。
+                            <p class="quaternary-summary-text">
+                                皆さんの共感が励みになります！！
                             </p>
-                            <p class="quaternary-main-text">
-                                ではプログラミングはどうでしょうか。
-                                <br>これから先、半年、一年、三年と勉強していくつもりでしたか？
-                            </p>
-                            <p class="quaternary-main-text">
-                                なんとなく、数ヶ月でできるようになっていそうなイメージを持って
-                                このページまでたどりついたのではないのでしょうか。
-                            </p>
-                            <p class="quaternary-main-text">
-                                もちろん目標によってはそれで十分な場合もあります。
-                            </p>
-                            <p class="quaternary-main-text">
-                                しかし何事も自分の強みにできるような実力をつけるためには
-                                それなりの学習期間が必要です。
-                                <br>プログラミングだけ、誰でも簡単に身に付くなんてことはもちろんないのです。    
-                            </p>
-                            <p class="quaternary-main-text">
-                                まずはこの至極当然の事実を共有しましょう。
-                            </p>
-                            <p class="quaternary-main-text">
-                                ではプログラミングを習得するためには時間をかければいいのか、
-                                時間が一番重要なファクターなのかといえば、もちろんそうではありません。
-                            </p>
-                            <p class="quaternary-main-text">
-                                学習段階によって必要な取り組み、環境は変わります。
-                                <br>CLOTOと一緒に最高の学習環境を創っていきませんか？
-                            </p>
-                            <a class="quaternary-link" href="prospect.html">
-                                <u>
-                                    もっと詳しく＞
-                                </u>
-                            </a>
+                            <button class="quaternary-button" onclick="location.href='https://forms.gle/nXaW8m8yecrxLxvM6'">
+                                Googleフォームでリリース前に無料の事前予約！
+                            </button>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!-- quaternary -->
                 <!-- quinary -->
                     <div class="quinary">
-                        <div class="quinary-area">
-                            <h2 class="quinary-title">プログラミング初学者の３大あるあるを解決</h2>
-                            <div class="problem">   
-                                <div class="how">
-                                    <h3 class="quinary-sub">
-                                        １何をすればいいのか。どうすればいいのか。わからない。
-                                    </h3>
-                                    <div class="quinary-tile-area">
-                                        <ul class="quinary-tile">
-                                            <li class="quinary-text-area">
-                                                <p class="quinary-text">
-                                                    プログラミング学習の最大の特徴に受験科目や資格勉強などと異なり、
-                                                    <br>　・長期的な学習法が未整理
-                                                    <br>　・ゴールが不明確
-                                                    <br>　・情報収集、検索力が命
-                                                    <br>だということことがあります。
-                                                </p>
-                                                <p class="quinary-text">
-                                                    つまり、初めから終わりまで自分自身で
-                                                    学習を設計、管理する必要があるのです。
-                                                </p>
-                                                <p class="quinary-text">
-                                                    CLOTOは教材ではありません。
-                                                    <br>プログラミング学習者の学習管理を徹底的
-                                                    に追及するサービスなのです。
-                                                </p>
-                                            </li>
-                                            <li class="quinary-text-area">
-                                                <img class="quinary-img-right" src="how.png" alt="how">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="difficult">
-                                    <h3 class="quinary-sub">
-                                        ２、思っていたより難しく、身につくまで学習を継続できない。
-                                    </h3>
-                                    <div class="quinary-tile-area">
-                                        <ul class="quinary-tile">
-                                            <li class="quinary-text-area">
-                                                <img class="quinary-img-left" src="difficult.png" alt="difficult">
-                                            </li>
-                                            <li class="quinary-text-area">
-                                                <p class="quinary-text">
-                                                    人によって異なりますが、プログラミングが
-                                                    ある程度理解できるようになるまでは苦悩の
-                                                    連続。あと少し頑張れば理解できるという段
-                                                    階で多くの人がモチベーションを維持できな
-                                                    くなり挫折してしまうのです。
-                                                </p>
-                                                <p class="quinary-text">
-                                                    CLOTOでは、さまざまな機能を用いて、ユ
-                                                    ーザー間での情報、モチベーションの共有を
-                                                    促進します。
-                                                </p>
-                                                <p class="quinary-text">
-                                                    学習内容、段階ごとに集合知をまとめ共有す
-                                                    ることで、自分の学習記録が、時間軸を超え
-                                                    て後進の育成に寄与することも可能なのです。
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="lonely">
-                                    <h3 class="quinary-sub">
-                                        ３、周りに学習者がいないので孤独。
-                                    </h3>
-                                    <div class="quinary-tile-area">
-                                        <ul class="quinary-tile">
-                                            <li class="quinary-text-area">
-                                                <p class="quinary-text">
-                                                    初学者の周りにはなかなかプログラミング
-                                                    に精通した知人がいないことが多く、また
-                                                    PCに向かって作業するという性質上、孤独
-                                                    感を感じる場面が多いようです。
-                                                </p>
-                                                <p class="quinary-text">
-                                                    CLOTOでは気軽に質問をできる機能や、
-                                                    各種イベント、勉強会を通じて、ユーザー
-                                                    同士に程よい距離感の「仲間」と触れ合う
-                                                    機会を提供します。時に競争し、時に支え
-                                                    合える仲間がいる。
-                                                </p>
-                                                <p class="quinary-text">
-                                                    プログラミング独学はもはや、仲間と出会
-                                                    う機会の一つと言えるかもしれません。
-                                                </p>
-                                            </li>
-                                            <li class="quinary-text-area">
-                                                <img class="quinary-img-right" src="lonely.png" alt="lonely">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        <div id="jump-quinary" class="quinary-area">
+                            <div class="quinary-title-area">
+                                <h2  class="quinary-title">
+                                    初期テストユーザー限定キャンペーン実施中！
+                                </h2>
+                                <h3 class="quinary-sub">
+                                    これを機にWeb制作の学習を始めませんか？
+                                </h3>
                             </div>
-                            <div class="quinary-summary">
-                                <p class="quinary-summary-text">
-                                    もし、一つでも今の状況に当てはまれば、
-                                    まずはお気軽に無料の事前予約を！
+                            <div class="quinary-main-area">
+                                <h3 class="quinary-main-title">
+                                    <font color="#FF2700">10/5まで</font>にお申し込みで初学者に嬉しい<font color="#f6bf00">３つの特典</font>
+                                </h3>
+                                <p class="quinary-main-text">
+
                                 </p>
-                                <p class="quinary-summary-text">
-                                    皆さんの共感が励みになります！！
+                                <h3 class="quinary-main-sub">
+                                    1,　β版テスト期間、基本料金無料
+                                </h3>
+                                <p class="quinary-main-text">
+                                    β版リリース段階で料金体系の詳細が定まっておりません。今後製品版に向けて、β版での有料化も検討しておりますが、本キャンペーンに該当する初期のテストユーザー様は、β版全期間で無料利用可能になります。
                                 </p>
-                                <button class="quinary-button" onclick="location.href='https://forms.gle/nXaW8m8yecrxLxvM6'">Googleフォームでリリース前に無料の事前予約！</button>
+                                <h3 class="quinary-main-sub">
+                                    2,　学習計画立案のための資料 無料配布
+                                </h3>
+                                <p class="quinary-main-text">
+                                    <font color="#07B82E">公式LINE追加</font>でWeb制作の学習工程をまとめたマイルストーンを無料配布！
+                                    目標設定から、学習計画の立案までサポート！
+                                </p>
+                                <h3 class="quinary-main-sub">
+                                    3,　全施設(機能)利用し放題
+                                </h3>
+                                <p class="quinary-main-text">
+                                    β版期間内、CLOTO内の全ての機能を無料でご利用いただけます。
+                                    製品版リリースまでの間に追加される機能も全てご利用いただけます。
+                                </p>
+                                <a class="quinary-link" href="./product.html">
+                                    CLOTOの機能をみる>
+                                </a>
                             </div>
+                            <button class="quinary-button" onclick="location.href='https://forms.gle/nXaW8m8yecrxLxvM6'">
+                                10/5まで！！　今すぐ無料の事前予約！
+                                <br>（Googleフォーム）
+                            </button>
                         </div>
                     </div>
                 <!-- quinary -->
                 <!-- footer -->
                 <footer>
                     <div class="footer">
-                        <div class="footer-area">
+                        <div class="footer-area" id="jump-footer">
                             <ul class="footer-menu">
                                 <li class="footer-text-left">
                                     <p class="footer-text-title">
@@ -351,19 +358,19 @@
                                             <a class="footer-link" href="product.html">製品について</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="method.html">学習支援について</a>
+                                            <a class="footer-link" href="coming.html">学習支援について</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="prospect.html">今後の展望</a>
+                                            <a class="footer-link" href="coming.html">今後の展望</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="pricing.html">プラン / 料金</a>
+                                            <a class="footer-link" href="coming.html">プラン / 料金</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="team.html">私たちのビジョン</a>
+                                            <a class="footer-link" href="coming.html">私たちのビジョン</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="contact.html">ご挨拶・お問い合わせ</a>
+                                            <a class="footer-link" href="coming.html">ご挨拶・お問い合わせ</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -374,16 +381,16 @@
                                     <hr>
                                     <ul class="footer-text-list">
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="prospect.html">利用規約</a>
+                                            <a class="footer-link" href="coming.html">利用規約</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="pricing.html">プライバシーポリシー</a>
+                                            <a class="footer-link" href="coming.html">プライバシーポリシー</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="team.html">運営者情報</a>
+                                            <a class="footer-link" href="https://twitter.com/cloto_jp">運営者情報</a>
                                         </li>
                                         <li class="footer-text-link">
-                                            <a class="footer-link" href="contact.html">お問い合わせ</a>
+                                            <a class="footer-link" href="https://twitter.com/cloto_jp">お問い合わせ</a>
                                         </li>
                                     </ul>
                                 </li>
