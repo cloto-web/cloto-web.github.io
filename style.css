@@ -12,19 +12,18 @@ body {
     font-size: 24px;
     min-height: 100vh;
     font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", serif;
+    color: #ffffff;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    color: #ffffff;
 }
 
 
 br {
     display: block;
-    content: "";
 }
     
 .side-footer {
@@ -35,12 +34,28 @@ br {
 h1 {
     font-size: 100px;
     text-align: center;
-    color: white;
 }
 
+/* coming */
 
-a, p, div, aside {
-    color: white;
+.coming-area {
+    width: 100%;
+}
+
+.coming {
+    color: #101010;
+    margin: 48px;
+    width: 100%;
+    height: auto;
+}
+
+.coming-link {
+    color: #101010;
+    margin: 48px;
+}
+
+.coming-link:hover {
+    color: blue;
 }
 
 /* a:hover {
@@ -97,6 +112,7 @@ header {
 }
 
 .header-text {
+    color: #ffffff;
     text-shadow: 1px 2px 3px rgb(33, 33, 33, 0.9);
 }
 
@@ -119,7 +135,7 @@ header {
 
 /* primary -------------------------------------------- */
 .primary {
-    width: 65%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     background-color: #f6bf00;
@@ -129,28 +145,36 @@ header {
     box-shadow: 8px 8px 16px -2px #212121;
     /* flex: 1; */
 }
+
 .primary-title {
-    margin-top: 100px;
+    margin-top: 96px;
+    text-shadow: 1px 2px 3px rgb(182, 182, 182);
+}
+
+.primary-sub {
+    text-align: center;
     text-shadow: 1px 2px 3px rgb(182, 182, 182);
 }
 
 .primary-text {
     text-align: center;
-    margin-top: 72px;
+    margin-top: 48px;
+    font-size: 24px;
     text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182);
 }
 
-.primary-link {
+.primary-link-area {
     text-align: center;
+    margin-top: 16px;
 }
 
-.to-prospect {
+.primary-link {
     margin-top: 30px;
     color: white;
     text-shadow: 0.5px 1px 1.5px rgba(182, 182, 182);
 }
 
-.to-prospect:hover {
+.primary-link:hover {
     color: #0411FF;
     }
 
@@ -180,109 +204,84 @@ header {
 .secondary {
     width: 100%;
     height: auto;
-    background-color: #f6bf00;
+    /* background-color: #f6bf00; */
+    background: radial-gradient( #f6bf00, #ffffff);
+
 }
 
-.secondary-area{
-    width: 65%;
+.secondary-area {
+    width: 80%;
     height: auto;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 160px;
+    padding-bottom: 160px;
     margin-left: auto;
     margin-right: auto;
-    /* min-width: 600px; */
-    display: flex;
 }
 
-.secondary-img {
-    width: 50%;
-    height: 100%;
-    z-index: 1;
-    margin-top: auto;
-    margin-bottom: auto;
+.secondary-title {
+    font-size: 72px;
+    text-align: center;
+    margin: 48px;
+    text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182);
+}
+
+.secondary-text-area {
+    width: 64%;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .secondary-text {
-    width: 50%;
-    z-index: 2;
-    text-align: center;
+    font-size: 24px;
+    text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182);
 }
 
-/* .secondary-text{
-    padding-right: 0;
-} */
-
-.secondary-title {
-    margin-bottom: 20px;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 480px;
-}
-
-.secondary-main {
-    margin-bottom: 20px;
-    font-size: 100%;
-    text-align: center;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 470px;
-}
-
-.harf {
-    float: left;
-    width: 50%;
-    height: 400px;
-    text-align : center;
-}
-
-.pc {
-    width: 80%;
+.secondary-link-area {
+    width: 100%;
     height: auto;
-}
-
-.to-pricing {
-    color: white;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 470px;
-}
-
-.to-pricing:hover {
-    color: #0411FF;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
-    min-width: 470px; 
+    text-align: center;
+    margin-bottom: 24px;
 }
 
 .secondary-link {
-    text-align: center;
+    color:  #1c2447;
+    padding-bottom: 24px;
+    text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182);
 }
 
+.secondary-link:hover {
+    color: #0411FF;
+}
 /*  tertiary-------------------------------------- */
 .tertiary {
     width: 100%;
     height: auto;
-    padding-bottom: 70px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #101010;
+    background-color: #ffffff;
+    color: #101010;
 }
 
 .tertiary-area {
     width: 80%;
     padding-top: 100px;
+    padding-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .tertiary-title {
-    border:1px solid #999999;
+    /* border:1px solid #101010; */
     text-align : center;
+    font-size: 48px;
     padding: 15px;
-    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 2px 3px rgba(33, 33, 33, 0.5);
 }
 
 .tertiary-sub {
-    border:1px solid #999999;
+    border:1px solid #101010;
     text-align : center;
     padding: 15px;
-    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 2px 3px rgba(33, 33, 33, 0.5);
 }
 
 .tertiary-table {
@@ -291,29 +290,31 @@ header {
 
 .tertiary-table li {
     width : calc(100% / 3) ;
-    border:1px solid #999999;
+    border:1px solid #101010;
 }
 
 .tertiary-image {
     text-align : center;
-    border:1px solid #999999;
+    /* border:1px solid #101010; */
 }
 
 .tertiary-img {
     width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 1px 2px 3px rgba(33, 33, 33, 0.5);
 }
 
 .tertiary-button {
     position:relative;
     width:100%;
     height:96px;
-    background-color:#101010;
-    border:1px solid #999999;
+    background-color:#ffffff;
+    /* border:1px solid #101010; */
 }
 
 .tertiary-button .tertiary-link{
+    color: #0411FF;
     display: block;
     position: absolute;
     top: 0;
@@ -329,9 +330,8 @@ header {
 
 .tertiary-link {
     margin-top: 24px;
-    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 2px 3px rgba(230, 230, 230, 0.5);
 }
-
 
 .tertiary-text {
     height: auto;
@@ -343,129 +343,163 @@ header {
     font-size: 16px;
     max-height: 320px;
     margin-bottom: 10px;
-    text-shadow: 0.5px 1px 1.5px rgba(255, 255, 255, 0.5);
+    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
 }
 
 /*  quaternary-------------------------------------- */
 
 .quaternary {
+    width: 100%;
     height: auto;
-    background-color: #f4f4f4;
-    border:1px solid #101010;
+    background-color: #101010;
 }
 
 .quaternary-area {
     width: 70%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     text-align : center;
 }
 
 .quaternary-title {
-    color: #101010;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.quaternary-contents {
+    text-align: center;
+}
+
+.quaternary-sub-area {
+
+}
+
+.quaternary-sub {
+    margin: 32px;
+    text-shadow: 0.5px 1px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.quaternary-tile-area {
+    
+}
+
+.quaternary-tile {
+    display: flex;
+}
+
+.quaternary-content-area {
+    width: 50%;
+    padding: 24px;   
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .quaternary-text {
-    margin-top: 30px;
-    text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.5);
+    text-align: left;
+    padding-top: 16px;
+    font-size: 16px;
+    text-shadow: 0.5px 1px 1.5px rgba(0, 0, 0, 0.5);
 }
 
-.quaternary-main-text {
-    color: #101010;
-    text-align : left;
-    font-size: 20px;
-    margin-bottom: 25px;
+.quaternary-img {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-.quaternary-link {
-    color: #101010;
+.quaternary-summary {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.quaternary-link :hover{
-    color: #f6bf00;
+.quaternary-summary-text {
+    margin-top: 24px;
+    text-shadow: 0.5px 1px 1.5px rgba(0, 0, 0, 0.5);
 }
 
-.quinary-img-right, .quinary-img-left {
-    box-shadow: 8px 8px 16px -8px #212121;
+.quaternary-button {
+    height: auto;
+    width: auto;
+    margin-top: 24px;
+    background-color: #0411FF;
+    border-radius:15px;
+    padding: 8px;
+    box-shadow: 2px 2px 4px -2px #212121;
+}
+
+.quaternary-button:hover {
+    background-color: #f6bf00;
 }
 
 /*  quinary-------------------------------------- */
-
 .quinary {
     height: auto;
+    color: #101010;
     background-color: #f4f4f4;
-    border:1px solid #101010;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quinary-area {
     width: 65%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 48px;
     margin-left: auto;
     margin-right: auto;
     text-align : center;
+    border:5px solid #FF2700;
+}
+
+.quinary-title-area {
+    /* margin-bottom: 32px; */
 }
 
 .quinary-title {
+    color: #FF2700;
+    margin-bottom: 24px;
+    border:1px solid #101010;
+}
+
+.quinary-main-area {
+    width: 80%;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.quinary-main-title {
+    margin-bottom: 24px;
+}
+
+.quinary-main-sub {
+    /* color: #f6bf00; */
+    margin-bottom: 24px;
+}
+
+.quinary-main-text {
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+
+.quinary-link {
     color: #101010;
 }
 
-.problem {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align : center;
-}
-
-.how, .difficult, .lonely {
-    text-align : center;
-}
-
-.quinary-sub {
-    color: #101010;
-}
-
-.quinary-tile-area {
-    text-align : center;
-}
-
-.quinary-tile {
-    display: flex;
-}
-
-.quinary-text-area {
-    width: 50%;
-    padding: 24px;
-}
-
-.quinary-text {
-    color: #101010;
-    font-size: 16px;
-    text-align : left;
-    padding-top: 12px;
-    padding-bottom: 6px;
-}
-
-.quinary-img-right {
-    width: 100%;
-}
-
-.quinary-img-left {
-    width: 100%;
-}
-
-
-.quinary-summary-text {
-    color: #101010;
-    margin-bottom: 20px;
+.quinary-link:hover {
+    color: #0411FF;
 }
 
 .quinary-button {
     height: auto;
     width: auto;
-    margin-top: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #ffffff;
     background-color: #0411FF;
     border-radius:15px;
     padding: 8px;
@@ -475,6 +509,7 @@ header {
 .quinary-button:hover {
     background-color: #f6bf00;
 }
+
 
 /*  footer-------------------------------------- */
 
@@ -536,6 +571,10 @@ hr {
     margin-bottom: 6px;
 }
 
+.footer-link {
+    color: #ffffff;
+}
+
 .footer-link:hover{
     color: #f6bf00;
 }
@@ -569,89 +608,16 @@ hr {
     }
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    .secondary-area {
-        width: 90%;
-        display: block;
-        text-align: center;
-    }
-    .secondary-img {
-        width: 100%;
-    }
-    .pc {
-        max-width: 400px;
-    }
-    .secondary-text {
-        width: 100%;
-        margin-top: 48px;
-    }
-    .secondary-title {
-        font-size: 24px;
-    }
-    .secondary-main {
-        font-size: 16px;
-    }
-    .to-pricing {
-        font-size: 18px;
-    }
+    
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
-    .tertiary-area {
-        width: 80%;
-    }
-    .tertiary-title {
-        font-size: 24px;
-    }
-    .tertiary-sub {
-        font-size: 20px;
-    }
-    .tertiary-table {
-        display: block;
-    }
-    .tertiary-table li {
-        width: 100%;
-        text-align: center;
-    }
+    
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    .quaternary-area {
-        width: 85%;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align : center;
-    }
-    .quaternary-title {
-        font-size: 32px;
-    }
-    .quaternary-main-text {
-        font-size: 16px;
-    }
+    
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
-    .quinary-area {
-        width: 85%;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align : center;
-    }
-    .quinary-sub {
-        background-color: rgb(33, 33, 33, 0.5);
-        color: white;
-        text-shadow: 0.5px 1px 1.5px rgba(33, 33, 33, 0.8);
-        font-size: 24px;
-    }
-    .quinary-tile {
-        text-align: center;
-        display: block;
-    }
-    .quinary-text-area {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
     /* quinary ---------------------------------------------*/
     /* footer ----------------------------------------------*/
     .footer-area {
@@ -702,6 +668,7 @@ hr {
 
     .drawer-text {
         font-size: 24px;
+        color: #ffffff;
     }
     
     .drawer-text {
@@ -796,121 +763,22 @@ hr {
 /* レスポンシブ 600px ----------------------------------------*/
 @media screen and (max-width: 600px) {
     /* header ----------------------------------------------*/
-    .header-menu {
-        margin: 0;
-        display: none;
-    }
-    .drawer {
-        margin-right: 8px;
-        margin-left: auto;
-    }
+    
     /* header ----------------------------------------------*/
     /* primary ---------------------------------------------*/
-    .primary {
-    width: 90%;
-    height: auto;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    color: white;
-    }
-    .primary-area {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .primary-title {
-        margin-top: 48px;
-        font-size: 32px;
-    }
-    .primary-text {
-        margin-top: 40px;
-        font-size: 14px;
-        line-height: 20px;
-        /* text-shadow: 0.5px 1px 1.5px rgb(182, 182, 182, 0.5); */
-    }
-    .to-prospect {
-        margin-top: 24px;
-        font-size: 24px;
-    }
-    .primary-button {
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
-    }
+    
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    .secondary-area {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-    .pc {
-        width: 100%;
-    }
-    .secondary-title {
-        font-size: 20px;
-        min-width: auto;
-    }
-    .secondary-main {
-        min-width: auto;
-    }
-    .to-pricing {
-        min-width: auto;
-    }
+    
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
-    .tertiary-area {
-        width: 96%;
-    }
-    .tertiary-link {
-        font-size: 20px;
-    }
-    .tertiary-text {
-        padding: 8px;
-    }
-    .tertiary-main-text {
-        font-size: 14px;
-    }
+    
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    .quaternary-area {
-        width: 90%;
-        margin-top: 64px;
-        margin-bottom: 64px;
-    }
-    .quaternary-title {
-        font-size: 24px;
-    }
-    .quaternary-main-text {
-        font-size: 14px;
-    }
-    .quaternary-link {
-        font-size: 20px;
-    }
+    
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
-    .quinary-area {
-        width: 90%;
-    }
-    .quinary-title {
-        font-size: 24px;
-    }
-    .quinary-sub {
-        font-size: 20px;
-    }
-    .quinary-text-area {
-        width: 100%;
-        padding: 16px;
-    }
-    .quinary-summary-text {
-        font-size: 20px;
-    }
-    .quinary-button {
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
-    }
+    
     /* quinary ---------------------------------------------*/
     /* footer ----------------------------------------------*/
     .footer-area {
