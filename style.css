@@ -390,10 +390,12 @@ header {
 
 .quaternary-content-area {
     width: 50%;
-    padding: 24px;   
     max-width: 480px;
+    padding: 3%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .quaternary-text {
@@ -461,7 +463,7 @@ header {
 .quinary-title {
     color: #FF2700;
     margin-bottom: 24px;
-    border:1px solid #101010;
+    /* border:1px solid #101010; */
 }
 
 .quinary-main-area {
@@ -608,16 +610,125 @@ hr {
     }
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    
+    .secondary-area {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
-    
+    .tertiary-area {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .tertiary-title {
+        padding: 0%;
+        font-size: 28px;
+    }
+    .tertiary-sub {
+        padding: 2%;
+        font-size: 20px;
+    }
+    .tertiary-table {
+        display: block;
+    }
+    .tertiary-table li {
+        width : 100%;
+        border:1px solid #101010;
+    }
+    .tertiary-link {
+        font-size: 20px;
+        margin-top: 0%;
+        padding-top: 5%;
+    }
+    .tertiary-text {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    
+    .quaternary-area {    
+        width: 90%;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .quaternary-title {
+        font-size: 24px;
+    }
+    .quaternary-sub {
+        font-size: 20px;
+        margin: 24px 1% 1% 1%; 
+        border:1px solid #ffffff;
+    }
+    .quaternary-tile {
+        /* display: block; */
+    }
+    .quaternary-content-area {
+        width: 100%;
+    }
+    .quaternary-summary {
+        width: 100%;
+    }
+    .quaternary-summary-text {
+        font-size: 16px;
+    }
+    .quaternary-button {
+        font-size: 16px;
+    }
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
-    
+    .quinary {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .quinary-area {
+        width: 90%;
+        padding: 1%;
+    }
+    .quinary-title-area {
+        margin: 0;
+    }
+    .quinary-title {
+        font-size: 24px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quinary-sub {
+        font-size: 20px;
+    }
+    .quinary-main-area {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .quinary-main-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .quinary-main-sub {
+        margin: 2%;
+        margin-bottom: 0px;
+        font-size: 18px;
+        border:1px solid #101010;
+    }
+    .quinary-main-text {
+        padding: 2%;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .quinary-link {
+        font-size: 20px;
+    }
+    .quinary-button {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
     /* quinary ---------------------------------------------*/
     /* footer ----------------------------------------------*/
     .footer-area {
@@ -763,22 +874,186 @@ hr {
 /* レスポンシブ 600px ----------------------------------------*/
 @media screen and (max-width: 600px) {
     /* header ----------------------------------------------*/
-    
+    .drawer-title {
+        font-size: 32px;
+        margin-top: 80px;
+    }
+    .drawer-text {
+        font-size: 20px;
+    }
     /* header ----------------------------------------------*/
     /* primary ---------------------------------------------*/
-    
+    .primary {
+        width: 90%;
+        padding-top: 55px;
+        padding-bottom: 48px;
+    }
+    .primary-title {
+        font-size: 28px;
+        margin-top: 24px;
+    }
+    .primary-sub {
+        font-size: 20px;
+        padding: 2%;
+    }
+    .primary-text {
+        margin-top: 20px;
+    }
+    .primary-link {
+        font-size: 20px;
+    }
+    .primary-link-area {
+        margin-top: 10px;
+        padding: 1%;
+    }
+    .primary-button {
+        font-size: 16px;
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .primary-button-area {
+        margin-top: 16px;
+    }
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    
+    .secondary-area {
+        width: 90%;
+    }
+    .secondary-title {
+        font-size: 32px;
+        margin: 2%;
+    }
+    .secondary-text-area {
+        width: 80%;
+        padding-bottom: 0;
+
+    }
+    .secondary-text {
+        margin-top: 16px;
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .secondary-link-area{
+        margin: 0;
+    }
+    .secondary-link {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
-    
+    .tertiary-area {
+        width: 90%;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .tertiary-title {
+        padding: 0%;
+        font-size: 28px;
+    }
+    .tertiary-sub {
+        padding: 2%;
+        font-size: 20px;
+    }
+    .tertiary-table {
+        display: block;
+    }
+    .tertiary-table li {
+        width : 100%;
+        border:1px solid #101010;
+    }
+    .tertiary-link {
+        font-size: 20px;
+        margin-top: 0%;
+        padding-top: 5%;
+    }
+    .tertiary-text {
+        padding: 4%;
+    }
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    
+    .quaternary-area {
+        width: 90%;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .quaternary-title {
+        font-size: 24px;
+    }
+    .quaternary-sub {
+        font-size: 20px;
+        margin: 24px 1% 1% 1%; 
+        border:1px solid #ffffff;
+    }
+    .quaternary-tile {
+        display: block;
+    }
+    .quaternary-content-area {
+        width: 100%;
+    }
+    .quaternary-summary {
+        width: 100%;
+    }
+    .quaternary-summary-text {
+        font-size: 16px;
+    }
+    .quaternary-button {
+        font-size: 16px;
+    }
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
-    
+    .quinary {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .quinary-area {
+        width: 90%;
+        padding: 1%;
+    }
+    .quinary-title-area {
+        margin: 0;
+    }
+    .quinary-title {
+        font-size: 24px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quinary-sub {
+        font-size: 20px;
+    }
+    .quinary-main-area {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .quinary-main-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .quinary-main-sub {
+        margin: 2%;
+        margin-bottom: 0px;
+        font-size: 18px;
+        border:1px solid #101010;
+    }
+    .quinary-main-text {
+        padding: 2%;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .quinary-link {
+        font-size: 20px;
+    }
+    .quinary-button {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
     /* quinary ---------------------------------------------*/
     /* footer ----------------------------------------------*/
     .footer-area {
