@@ -354,27 +354,82 @@ hr {
     margin-top: 24px;
 }
 
-/* レスポンシブ 1000px ---------------------------------------*/
-@media screen and (max-width: 1000px) {
+/* レスポンシブ 1100px ---------------------------------------*/
+@media screen and (max-width: 1100px) {
     /* header ----------------------------------------------*/
     .header-text {
         display: none;
     }
-    .hamburger {
-        display: block;
-    }
     /* header ----------------------------------------------*/
     /* primary ---------------------------------------------*/
-    
+    .primary-area {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 32px;
+    }
+    .primary-title {
+        font-size: 56px;
+        margin-top: 0;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        min-width: auto;
+    }
+    .pc-cut {
+        width: 75%;
+    }
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    
+    .secondary-area {
+        width: 85%;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .secondary-title {
+        font-size: 32px;
+    }
+    .secondary-link {
+        font-size: 24px;
+    }
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
     
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    
+    .quaternary-area {
+        width: 85%;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .quaternary-info {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .quaternary-title-text {
+        font-size: 32px;
+    }
+    .quaternary-contents {
+        display: block;
+    }
+    .quaternary-content {
+        width: 100%;
+    }
+    .quaternary-sub {
+        font-size: 28px;
+        padding-top: 4px;
+    }
+    .quaternary-text {
+        margin-top: 16px;
+        font-size: 20px;
+    }
+    .quaternary-link {
+        font-size: 24px;
+    }
+    .quaternary-button {
+        font-size: 24px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
     
@@ -530,19 +585,82 @@ hr {
         margin-right: 8px;
         margin-left: auto;
     }
+    .drawer-title {
+        font-size: 32px;
+        margin-top: 80px;
+    }
+    .drawer-text {
+        font-size: 20px;
+    }
     /* header ----------------------------------------------*/
     /* primary ---------------------------------------------*/
-    
-    
+    .primary-area {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 32px;
+    }
+    .primary-title {
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 0;
+        min-width: auto;
+    }
+    .pc-cut {
+        width: 80%;
+    }
     /* primary ---------------------------------------------*/
     /* secondary -------------------------------------------*/
-    
+    .secondary-area {
+        width: 90%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .secondary-title {
+        font-size: 24px;
+    }
+    .secondary-link {
+        font-size: 15px;
+    }
     /* secondary -------------------------------------------*/
     /* tertiary --------------------------------------------*/
     
     /* tertiary --------------------------------------------*/
     /* quaternary ------------------------------------------*/
-    
+    .quaternary-area {
+        width: 90%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .quaternary-info {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .quaternary-title-text {
+        font-size: 24px;
+    }
+    .quaternary-contents {
+        display: block;
+    }
+    .quaternary-content {
+        width: 100%;
+    }
+    .quaternary-sub {
+        font-size: 20px;
+        padding-top: 4px;
+    }
+    .quaternary-text {
+        margin-top: 16px;
+        font-size: 15px;
+    }
+    .quaternary-link {
+        font-size: 16px;
+    }
+    .quaternary-button {
+        font-size: 16px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
     /* quaternary ------------------------------------------*/
     /* quinary ---------------------------------------------*/
     
